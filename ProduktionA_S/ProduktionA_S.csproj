@@ -42,8 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Application\Controller.cs" />
+    <Compile Include="Domain\DbManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\View.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
